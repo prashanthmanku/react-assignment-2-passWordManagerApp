@@ -1,0 +1,92 @@
+.bg1 {
+  background-color: #0b69ff;
+}
+.bg2 {
+  background-color: #f59e0b;
+}
+.bg3 {
+  background-color: #10b981;
+}
+.bg4 {
+  background-color: #f97316;
+}
+.bg5 {
+  background-color: #14b8a6;
+}
+.bg6 {
+  background-color: #b91c1c;
+}
+.bg7 {
+  background-color: #0ea5e9;
+}
+
+.password-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #94a3b8;
+  padding: 10px;
+  border-radius: 7px;
+  /* max-width: 280px; */
+}
+
+.passwd-firstLetter-and-details-container {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.profile-first-letter {
+  margin-right: 11px;
+  color: #f8fafc;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 13px;
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.password-details-container {
+}
+.domain-name {
+  color: #f8fafc;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.user-name {
+  color: #f8fafc;
+  margin: 11px 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.masked-stars-img {
+  width: 110px;
+}
+.password-text {
+  color: #f8fafc;
+  margin: 11px 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.delete-btn {
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.delete-icon {
+  width: 16px;
+  height: 16px;
+}
+@media screen and (min-width: 768px) {
+  .password-item-container {
+    width: 320px;
+    margin-right: 20px;
+  }
+}
