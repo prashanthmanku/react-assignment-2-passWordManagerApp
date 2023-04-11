@@ -250,6 +250,17 @@ class PasswordManager extends Component {
                 : this.renderMaskedShowPasswordView(searchedFilteredList)}
             </div>
           </div>
+          <div className="contact-Info">
+            <p className="contact">
+              Built by:-
+              <a
+                className="link"
+                href="https://www.linkedin.com/in/prashanth-manku97/"
+              >
+                Prashanth Manku
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     )

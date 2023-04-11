@@ -235,3 +235,14 @@ form {
     flex-wrap: wrap;
   }
 }
+
+.contact {
+  font-size: 15px;
+  color: #454f84;
+  font-weight: 600;
+}
+.link {
+  color: #0b69ff;
+  font-weight: 500;
+  margin-left: 10px;
+}
